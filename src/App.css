@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+
+.App__content{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90vw;
+  margin-top: 40px;
+  align-items: flex-start;
+}
 .App-bg{
   position:absolute;
   top: 30%;

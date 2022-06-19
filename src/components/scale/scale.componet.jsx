@@ -1,13 +1,13 @@
 import React from "react";
-import { useState ,createContext , useContext } from "react";
+import { useState , useContext } from "react";
+import { UserContext } from "../../App";
 
-import style from './scale.css'
-
-
-
-
+import  './scale.css'
 
 const Scale = (props) => {
+
+ const {index, setIndex} = useContext(UserContext);
+
     const Numbers = (nums) => {
         return nums.map((el)=>
               <li onClick={storeRating} className="App__ratings-li" key={el.toString()}>
@@ -21,9 +21,7 @@ const Scale = (props) => {
         rating.push(count)
         setRating(rating);
 
-        if(rating.length ==8)
-        console.log(rating) ;
-
+        setIndex(index+1);
     }
 
    const [rating , setRating] = useState([]);

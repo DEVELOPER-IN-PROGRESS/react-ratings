@@ -1,0 +1,14 @@
+.App__question-wrapper{
+    width: 500px;
+}
+
+.App__question{
+  display: inline-block;
+  font-size: 40px;
+}
+
+.App__question-num{
+    width: 80px;
+    margin: 0px;
+    display: inline-block;
+}
