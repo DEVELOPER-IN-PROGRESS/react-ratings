@@ -1,0 +1,84 @@
+{
+    "questions":{
+        "job":[
+            "How do you rate your job ?",
+            "how interested are you for  this job ?",
+            "How was your previous jo",
+            "Describe your work life balance ",
+            "Are you open to learning new technologies along the job ",
+            "How many languages do you speak ?",
+            "how well do you work along with someone whom you don't know",
+            "How likeky are you going to recommend this company to someone ?"
+        ],
+        "relationship":[
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "family":[
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "health":[
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "friends":[
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "finance":[
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "relaxation":[
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "self-realization":[
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+}
