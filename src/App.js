@@ -1,21 +1,15 @@
 import './App.css';
+import Scale from './components/scale/scale.componet';
+
 
 function App() {
+  const scale = [1,2,3,4,5,6,7,8,9,10]
   return (
     <div className="App">
+      {/* <p className="App-bg">question</p> */}
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <Scale scale={scale}/>
     </div>
   );
 }
