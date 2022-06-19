@@ -1,0 +1,25 @@
+.App__result{
+    background-color: white;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+    position: absolute;
+    display: none;
+    top: 0px;
+  }
+
+.App__result-table{
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.App__result-table> *{
+    border: 1px solid black;
+}
+
+.App__result-table > table , .App__result-table > td ,.App__result-table > tr {
+    border: 1px solid black;
+}

@@ -7,7 +7,7 @@ const closeModal = () => document.getElementById('aboutPopup').style.display = '
         <div id='aboutPopup' className="App__popup-wrapper">
             <div className="App__popup">
                 <div title='Close this page' className='close-wrapper' onClick={closeModal}>❌</div>
-                <h2>Ratings </h2>
+                <h2>About this App </h2>
             </div>
         </div>
     );

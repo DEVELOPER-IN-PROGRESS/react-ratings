@@ -4,20 +4,24 @@ import { UserContext } from '../../App';
 import './sidebar.styles.css'
 
 const Sidebar = () =>{
-  const {setTag} = useContext(UserContext) ;
+  const {setTag , setRating ,setIndex} = useContext(UserContext) ;
     useEffect( ()=>{
-        document.getElementsByClassName('App__sidebar-p')[0].style.color = 'black'
+        document.getElementsByClassName('App__sidebar-p')[0].style.color = 'black';
     },[]) ;
 
     const categories = ["job","relationship","family","health","self-realization","finance","relaxation","friends"];
 
     const changeTab = (el) => {
+        setRating([])
+        setIndex(1)
         let p = document.querySelectorAll('.App__sidebar-p')
         p.forEach((p) =>
             p.style.color = '#a5a79e'
         )
         el.target.style.color ='black'
         setTag(el.target.innerText.toLowerCase())
+
+
     }
 
     return(
