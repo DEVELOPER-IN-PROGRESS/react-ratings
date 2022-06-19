@@ -16,13 +16,13 @@ function App() {
 
  // const [rating , setRating] = useState([]);
 
-  //const [tag ,setTag] = useState('job');
+  const [tag ,setTag] = useState('job');
 
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(1);
 
   const scale = [1,2,3,4,5,6,7,8,9,10]
   return (
-    <UserContext.Provider value={{index,setIndex}}>
+    <UserContext.Provider value={{index,setIndex, tag , setTag}}>
     <div className="App">
       <Popup />
       <header className="App-header">
@@ -31,8 +31,8 @@ function App() {
       </header>
       <div className='App__content'>
       {/* <UserContext.Consumer> */}
-         <Qns  index={index} />
-        <Sidebar/>
+         <Qns  index={index} tag={tag} />
+        <Sidebar />
       {/* </UserContext.Consumer> */}
       </div>
 

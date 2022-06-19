@@ -22,6 +22,8 @@ const Scale = (props) => {
         setRating(rating);
 
         setIndex(index+1);
+        if(index>7)
+        setIndex(1);
     }
 
    const [rating , setRating] = useState([]);

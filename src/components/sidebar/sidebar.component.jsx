@@ -1,9 +1,10 @@
-import { useEffect } from 'react';
+import { useEffect ,useContext} from 'react';
+import { UserContext } from '../../App';
 
-import style from './sidebar.styles.css'
+import './sidebar.styles.css'
 
 const Sidebar = () =>{
-
+  const {setTag} = useContext(UserContext) ;
     useEffect( ()=>{
         document.getElementsByClassName('App__sidebar-p')[0].style.color = 'black'
     },[]) ;
@@ -16,6 +17,7 @@ const Sidebar = () =>{
             p.style.color = '#a5a79e'
         )
         el.target.style.color ='black'
+        setTag(el.target.innerText.toLowerCase())
     }
 
     return(

@@ -11,7 +11,7 @@
             "How likeky are you going to recommend this company to someone ?"
         ],
         "relationship":[
-            "",
+            "rel",
             "",
             "",
             "",
@@ -21,7 +21,7 @@
             ""
         ],
         "family":[
-            "",
+            "fam",
             "",
             "",
             "",
@@ -31,7 +31,7 @@
             ""
         ],
         "health":[
-            "",
+            "heal",
             "",
             "",
             "",
@@ -41,7 +41,7 @@
             ""
         ],
         "friends":[
-            "",
+            "fri",
             "",
             "",
             "",
@@ -51,7 +51,7 @@
             ""
         ],
         "finance":[
-            "",
+            "fina",
             "",
             "",
             "",
@@ -61,7 +61,7 @@
             ""
         ],
         "relaxation":[
-            "",
+            "rela",
             "",
             "",
             "",
@@ -71,7 +71,7 @@
             ""
         ],
         "self-realization":[
-            "",
+            "self-",
             "",
             "",
             "",

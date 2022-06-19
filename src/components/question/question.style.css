@@ -1,14 +1,28 @@
 .App__question-wrapper{
-    width: 500px;
+    width: 950px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
 }
 
 .App__question{
-  display: inline-block;
-  font-size: 40px;
+  font-size: 63px;
+  line-height: 58px;
+  width: 840px;
+  margin: 0px;
+  text-align: left;
 }
 
 .App__question-num{
     width: 80px;
     margin: 0px;
+    line-height: 4px;
     display: inline-block;
+}
+
+.App__question-num::first-letter {
+    font-size: 3.5em;
+    line-height: 55px;
+    float: left;
+    font-weight: 800 ;
 }
