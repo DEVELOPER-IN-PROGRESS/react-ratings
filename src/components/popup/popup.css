@@ -1,0 +1,26 @@
+.App__popup-wrapper{
+  background-color: white;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  position: absolute;
+  display: none;
+  top: 0px;
+}
+
+.App__popup{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 85vw;
+  height: 35vw;
+  border: 1px solid black;
+}
+
+.close-wrapper{
+  margin: 0px;
+  display: flex;
+  justify-content: end;
+}
